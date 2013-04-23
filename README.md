@@ -1,1 +1,1 @@
-Follows the Eloquent JavaScript book (http://eloquentjavascript.net/contents.html) from beginning to end.
+Does not follow any particular book. I originally intended it to be a repository for all the exercies found in the Eloquent JavaScript book, but decided to use this for experiments as I study the language.
