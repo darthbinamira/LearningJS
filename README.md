@@ -1,0 +1,1 @@
+Does not follow any particular book. I originally intended it to be a repository for all the exercies found in the Eloquent JavaScript book, but decided to use this for experiments as I study the language.
