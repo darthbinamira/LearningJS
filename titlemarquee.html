@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>90's Style Scrolling Text</title>
+<script type="text/javascript" src="titlemarquee.js">//</script>
+<style type="text/css">
+    body {
+        background-color: #000000;
+        color: #00FF00;
+        font-family: courier new;
+    }
+    #textarea {
+        width: 480px;
+        height: 60px;
+    }
+	#scroll_output {
+		width: 640px;
+		overflow: hidden;
+	}
+</style>
+</head>
+<body onload="startScrolling();">
+Text to scroll:
+<br>
+<textarea id="textarea"></textarea>
+<br>
+<button id="start" onclick="startScrolling();">Start</button>
+<button id="stop" onclick="stopScrolling();">Stop</button>
+<br>
+Scroll output:
+<pre id="scroll_output"></pre>
+</body>
+</html>
