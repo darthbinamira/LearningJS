@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>2K's Style Fade To Background</title>
+<script type="text/javascript" src="fadetobackground.js">//</script>
+<style type="text/css">
+    body {
+        background-color: #000000;
+        color: #00FF00;
+        font-family: courier new;
+    }
+    #textarea {
+        width: 480px;
+        height: 60px;
+    }
+</style>
+</head>
+<body onload="startFading();">
+Text to fade (separate lines using 'Return' key to fade one line at a time):
+<br>
+<textarea id="textarea"></textarea>
+<br>
+<button id="start" onclick="startFading();">Start</button>
+<button id="stop" onclick="stopFading();">Stop</button>
+<br>
+Output:
+<p id="fade_output"></p>
+</body>
+</html>

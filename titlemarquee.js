@@ -19,10 +19,10 @@ function startScrolling() {
         textToType = textToType.length === 0 ? defaultText : textToType;
 
         typeTimer = setInterval(function () {
-            tempText = textToType.substr(stopCounter, textToType.length) + " · " + textToType.substr(0, stopCounter);
+            tempText = textToType.substr(stopCounter, textToType.length) + "                    " + textToType.substr(0, stopCounter);
             outputElem.textContent = tempText;
             if (stopCounter < textToType.length) {
-                ++stopCounter;
+                stopCounter = stopCounter + 1;
             } else {
                 stopCounter = 0;
             }
